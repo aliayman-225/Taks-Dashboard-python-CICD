@@ -34,7 +34,7 @@ pipeline {
             
         }
 
-        stage('Update Kubernetes Deployment') {
+       /* stage('Update Kubernetes Deployment') {
             steps {
                 script {
                     // Set the new image in the Kubernetes manifests
@@ -44,7 +44,7 @@ pipeline {
                     """
                 }
             }
-        }
+        }*/
 
         stage('Sync with ArgoCD') {
             steps {
