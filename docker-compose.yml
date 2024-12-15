@@ -5,6 +5,7 @@ services:
     build: .
     ports:
       - "5000:5000"
+    image: task-manager:latest
     volumes:
       - ./app:/app
     environment:

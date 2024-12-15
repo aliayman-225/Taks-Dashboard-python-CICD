@@ -19,7 +19,7 @@ pipeline {
 
         stage('Dockerize') {
             steps {
-                sh 'docker compose build ${DOCKER_IMAGE}:latest'
+                sh 'docker compose build'
             }
         }
         stage('Push to dockerhub') {
