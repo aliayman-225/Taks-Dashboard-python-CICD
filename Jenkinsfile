@@ -4,7 +4,7 @@ pipeline {
 
         DOCKER_IMAGE = "aliayman225/task-manager"
         //VERSION = "${env.BUILD_NUMBER}"
-	ARGOCD_SERVER = 'http://localhost:8082'
+	ARGOCD_SERVER = 'localhost:8082'
         ARGOCD_USER = 'admin'
         ARGOCD_PASSWORD = 'blxCMgUErLrfUjNN'
         ARGOCD_APP_NAME = 'task-manager'
